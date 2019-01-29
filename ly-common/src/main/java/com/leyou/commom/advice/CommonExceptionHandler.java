@@ -1,9 +1,7 @@
 package com.leyou.commom.advice;
 
-import com.leyou.commom.enums.ExceptionEnum;
 import com.leyou.commom.exception.LyException;
 import com.leyou.commom.vo.ExceptionResult;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
